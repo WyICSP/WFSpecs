@@ -32,13 +32,16 @@ WFApplyArea申请片区的组件,合伙人使用的功能
 
   s.source_files = 'WFApplyArea/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WFApplyArea' => ['WFApplyArea/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'WFApplyArea' => ['WFApplyArea/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'WFBasics'
   s.dependency 'WFKitMain'
+  s.dependency 'WFKitLogin'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'WKFunComponents'
 end
